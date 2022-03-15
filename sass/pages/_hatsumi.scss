@@ -1,0 +1,70 @@
+.hatsumi_title {
+  color: $clr-red-one;
+  font-family: $font-fam-1;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+}
+
+.hatsumi_info {
+  font-family: $font-fam-1;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  padding: 1.5rem 5rem 1rem 5rem;
+}
+
+.hatsumi_picture {
+  border: 5px solid $clr-white;
+  box-shadow: $box-shadow;
+  display: block;
+  margin: 8rem auto 0 auto;
+  width: 300px;
+}
+
+.hatsumi_men {
+  border: 5px solid $clr-white;
+  box-shadow: $box-shadow-2;
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 600px;
+}
+
+.toshitsugu_poem {
+  background: $clr-grey-3;
+  font-family: Supermercado One;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .hatsumi_info {
+    font-size: 1.4rem;
+    padding: 1rem 2.5rem 2.25rem 2.5rem;
+  }
+
+  .hatsumi_title {
+    font-size: 1.35rem;
+  }
+
+  .hatsumi_men {
+    width: 275px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .hatsumi_info {
+    font-size: 1.4rem;
+    padding: 1rem 2.5rem 2.25rem 2.5rem;
+  }
+
+  .hatsumi_title {
+    font-size: 1.35rem;
+  }
+
+  .hatsumi_men {
+    width: 275px;
+  }
+}

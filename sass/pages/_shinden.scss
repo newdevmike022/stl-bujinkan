@@ -1,0 +1,82 @@
+.shinden {
+  color: $clr-purple-one;
+  font-family: $font-fam-2;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: none;
+  margin: 8rem 0 4rem 0;
+}
+
+.shin_title {
+  padding-top: 1rem;
+  text-align: center;
+  font-family: $font-fam-1;
+  font-size: 1.75rem;
+  color: $clr-red-one;
+}
+
+.school_info {
+  font-family: $font-fam-1;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  padding: 4.5rem 5rem 1rem 5rem;
+}
+
+.ninja_star {
+  width: 210px;
+}
+
+.shinden_fudo {
+  border: 4px solid $clr-white;
+  width: 210px;
+  filter: drop-shadow(4px 4px 2px #383837);
+}
+
+.shinden_fudo_2 {
+  border: 4px solid $clr-white;
+  width: 350px;
+  filter: drop-shadow(4px 4px 2px #383837);
+}
+
+ol {
+  counter-reset: item;
+}
+ol li {
+  display: block;
+}
+ol li:before {
+  color: $clr-purple-one;
+  content: counter(item) ". ";
+  counter-increment: item;
+  font-weight: bold;
+}
+
+.border {
+  border-left: 1px solid $clr-grey-2 !important;
+  border-right: 1px solid $clr-grey-2 !important;
+}
+
+@media screen and (max-width: 1100px) {
+  .shinden {
+    font-size: 2.25rem;
+  }
+
+  .shin_title {
+    margin-bottom: -1rem;
+    padding-top: 0.5rem;
+    font-family: $font-fam-1;
+    font-size: 1.35rem;
+  }
+
+  .school_info {
+    font-size: 1.4rem;
+    padding: 2.25rem 2.5rem 2.25rem 2.5rem;
+  }
+
+  .shinden_fudo_2 {
+    width: 250px;
+  }
+}

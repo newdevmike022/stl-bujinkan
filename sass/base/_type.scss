@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Supermercado+One&family=Ubuntu:wght@400;500;700&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  //letter-spacing: $spacing;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+$font-fam-1: Source Sans Pro;
+$font-fam-2: Ubuntu;

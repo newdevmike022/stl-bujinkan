@@ -1,0 +1,49 @@
+.form-box {
+  background: $clr-grey-3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background: $clr-white;
+  margin: 12rem 0 7.5rem 0 !important;
+  padding: 2vw 4vh;
+  width: 75%;
+  max-width: 650px;
+  border-radius: 10px;
+  & .contact {
+    font-family: $font-fam-2;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: $clr-red-one;
+  }
+}
+
+.btn-danger {
+  background: $clr-red-one;
+}
+
+.address_2 {
+  font-size: 1.5rem;
+  color: $clr-red-one;
+  & p {
+    font-size: 1.25rem;
+    color: $clr-black;
+    text-transform: none;
+  }
+}
+
+//MEDIA
+
+@media screen and (max-width: 800px) {
+  .contact {
+    font-size: 1.5rem;
+  }
+  .address_2 {
+    font-size: 1.25rem;
+    & p {
+      font-size: 15px;
+    }
+  }
+}

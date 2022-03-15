@@ -1,0 +1,59 @@
+.bujinkan {
+  color: $clr-purple-one;
+  font-family: $font-fam-2;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5rem 0 4rem 0 !important;
+}
+
+.bujinkan_info {
+  font-family: $font-fam-1;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  padding: 1rem 5rem 1rem 5rem;
+}
+
+.bujinkan_dojo {
+  border: 5px solid $clr-white;
+  box-shadow: $box-shadow-2;
+  margin-top: 2rem;
+  width: 700px;
+}
+
+#scroll {
+  background: url("../images/parchment2.jpg");
+  text-align: center;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  max-width: 100%;
+  min-width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .bujinkan {
+    font-size: 2.25rem;
+  }
+
+  .bujinkan_info {
+    font-size: 1.4rem;
+    padding: 1rem 2.5rem 2.25rem 2.5rem;
+  }
+
+  .bujinkan_dojo {
+    margin: 0 0 -2rem 0;
+    width: 300px;
+  }
+}

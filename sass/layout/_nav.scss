@@ -1,0 +1,32 @@
+.navbar {
+  padding: 15px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-brand img {
+  float: left;
+  margin-right: 7px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $clr-yellow-one;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.dropdown-toggle:hover {
+  color: $clr-white !important;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown-menu {
+  .dropdown-item {
+    text-transform: uppercase;
+  }
+}

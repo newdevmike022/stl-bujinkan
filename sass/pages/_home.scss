@@ -1,0 +1,74 @@
+header {
+  margin: 4.5rem 0 0 0;
+}
+
+.about_stl_bujinkan {
+  font-family: $font-fam-2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  padding: 4.5rem 5rem 4rem 5rem;
+  & .title {
+    font-weight: 700;
+  }
+}
+
+.card {
+  padding: 10px 10px 0 10px;
+  background: $clr-light-blue;
+}
+
+.instructor {
+  background: none !important;
+  box-shadow: $box-shadow-2;
+}
+
+thead {
+  color: $clr-white;
+  font-size: 1.25rem;
+}
+
+tbody {
+  font-size: 1.15rem;
+}
+
+.row {
+  margin-top: 4.5rem;
+}
+
+.video {
+  color: $clr-black !important;
+  font-size: 1.65rem;
+  font-family: $font-fam-1;
+  font-weight: 700;
+  padding-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logo {
+  text-align: center;
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.bujihead {
+  margin-top: 0.9rem;
+}
+
+//MEDIA
+
+@media screen and (max-width: 800px) {
+  .about_stl_bujinkan {
+    font-size: 1.4rem;
+    padding: 2.25rem 2.5rem 2.25rem 2.5rem;
+  }
+
+  .video {
+    font-size: 1.45rem;
+  }
+
+  .row {
+    margin-top: 2.25rem;
+  }
+}

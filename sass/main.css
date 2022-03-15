@@ -1,0 +1,549 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Supermercado+One&family=Ubuntu:wght@400;500;700&display=swap");
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+/* MEDIA */
+@media only screen and (max-width: 1280px) {
+  img.responsive {
+    width: 300px;
+  }
+  #carouselExampleIndicators {
+    margin-top: -5px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  img.responsive {
+    width: 250px;
+  }
+  #carouselExampleIndicators {
+    margin-top: -5px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  img.responsive {
+    width: 250px;
+  }
+  #carouselExampleIndicators {
+    margin-top: -21px;
+  }
+}
+
+.navbar {
+  padding: 15px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-brand img {
+  float: left;
+  margin-right: 7px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f9e528;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.dropdown-toggle:hover {
+  color: #fff !important;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown-menu .dropdown-item {
+  text-transform: uppercase;
+}
+
+footer {
+  color: #fff;
+  background: #d11414;
+  font-family: Source Sans Pro;
+  text-align: center;
+  margin-top: -1rem;
+  padding: 2.5rem;
+  position: absolute;
+  width: 100% !important;
+}
+
+footer .name {
+  color: #f9e528;
+  text-transform: uppercase;
+}
+
+footer .address {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+footer .address .break {
+  font-weight: 700;
+  color: #f9e528;
+}
+
+.social-icons {
+  padding-bottom: 10px;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 2rem;
+  margin: 1rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.social-icon:hover {
+  color: #09009b;
+}
+
+@media only screen and (max-width: 1024px) {
+  footer {
+    font-size: 12.5px;
+  }
+  .social-icon {
+    font-size: 1.75rem;
+    margin: 0.75rem;
+  }
+}
+
+.bujinkan {
+  color: #3e065f;
+  font-family: Ubuntu;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5rem 0 4rem 0 !important;
+}
+
+.bujinkan_info {
+  font-family: Source Sans Pro;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  padding: 1rem 5rem 1rem 5rem;
+}
+
+.bujinkan_dojo {
+  border: 5px solid #fff;
+  -webkit-box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.3);
+  margin-top: 2rem;
+  width: 700px;
+}
+
+#scroll {
+  background: url("../images/parchment2.jpg");
+  text-align: center;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  max-width: 100%;
+  min-width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .bujinkan {
+    font-size: 2.25rem;
+  }
+  .bujinkan_info {
+    font-size: 1.4rem;
+    padding: 1rem 2.5rem 2.25rem 2.5rem;
+  }
+  .bujinkan_dojo {
+    margin: 0 0 -2rem 0;
+    width: 300px;
+  }
+}
+
+.hatsumi_title {
+  color: #d11414;
+  font-family: Source Sans Pro;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+}
+
+.hatsumi_info {
+  font-family: Source Sans Pro;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  padding: 1.5rem 5rem 1rem 5rem;
+}
+
+.hatsumi_picture {
+  border: 5px solid #fff;
+  -webkit-box-shadow: 3px 0px 2px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 0px 2px 0px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 8rem auto 0 auto;
+  width: 300px;
+}
+
+.hatsumi_men {
+  border: 5px solid #fff;
+  -webkit-box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 600px;
+}
+
+.toshitsugu_poem {
+  background: #f0ece3;
+  font-family: Supermercado One;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .hatsumi_info {
+    font-size: 1.4rem;
+    padding: 1rem 2.5rem 2.25rem 2.5rem;
+  }
+  .hatsumi_title {
+    font-size: 1.35rem;
+  }
+  .hatsumi_men {
+    width: 275px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .hatsumi_info {
+    font-size: 1.4rem;
+    padding: 1rem 2.5rem 2.25rem 2.5rem;
+  }
+  .hatsumi_title {
+    font-size: 1.35rem;
+  }
+  .hatsumi_men {
+    width: 275px;
+  }
+}
+
+header {
+  margin: 4.5rem 0 0 0;
+}
+
+.about_stl_bujinkan {
+  font-family: Ubuntu;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  padding: 4.5rem 5rem 4rem 5rem;
+}
+
+.about_stl_bujinkan .title {
+  font-weight: 700;
+}
+
+.card {
+  padding: 10px 10px 0 10px;
+  background: #d3dedc;
+}
+
+.instructor {
+  background: none !important;
+  -webkit-box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+thead {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+tbody {
+  font-size: 1.15rem;
+}
+
+.row {
+  margin-top: 4.5rem;
+}
+
+.video {
+  color: #000 !important;
+  font-size: 1.65rem;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  padding-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logo {
+  text-align: center;
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.bujihead {
+  margin-top: 0.9rem;
+}
+
+@media screen and (max-width: 800px) {
+  .about_stl_bujinkan {
+    font-size: 1.4rem;
+    padding: 2.25rem 2.5rem 2.25rem 2.5rem;
+  }
+  .video {
+    font-size: 1.45rem;
+  }
+  .row {
+    margin-top: 2.25rem;
+  }
+}
+
+.shinden {
+  color: #3e065f;
+  font-family: Ubuntu;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: none;
+  margin: 8rem 0 4rem 0;
+}
+
+.shin_title {
+  padding-top: 1rem;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 1.75rem;
+  color: #d11414;
+}
+
+.school_info {
+  font-family: Source Sans Pro;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+  padding: 4.5rem 5rem 1rem 5rem;
+}
+
+.ninja_star {
+  width: 210px;
+}
+
+.shinden_fudo {
+  border: 4px solid #fff;
+  width: 210px;
+  -webkit-filter: drop-shadow(4px 4px 2px #383837);
+          filter: drop-shadow(4px 4px 2px #383837);
+}
+
+.shinden_fudo_2 {
+  border: 4px solid #fff;
+  width: 350px;
+  -webkit-filter: drop-shadow(4px 4px 2px #383837);
+          filter: drop-shadow(4px 4px 2px #383837);
+}
+
+ol {
+  counter-reset: item;
+}
+
+ol li {
+  display: block;
+}
+
+ol li:before {
+  color: #3e065f;
+  content: counter(item) ". ";
+  counter-increment: item;
+  font-weight: bold;
+}
+
+.border {
+  border-left: 1px solid #d6d4d4 !important;
+  border-right: 1px solid #d6d4d4 !important;
+}
+
+@media screen and (max-width: 1100px) {
+  .shinden {
+    font-size: 2.25rem;
+  }
+  .shin_title {
+    margin-bottom: -1rem;
+    padding-top: 0.5rem;
+    font-family: Source Sans Pro;
+    font-size: 1.35rem;
+  }
+  .school_info {
+    font-size: 1.4rem;
+    padding: 2.25rem 2.5rem 2.25rem 2.5rem;
+  }
+  .shinden_fudo_2 {
+    width: 250px;
+  }
+}
+
+.links {
+  margin: 1rem 0 -1rem 4rem;
+}
+
+.links h1 {
+  font-size: 2.25rem;
+  text-align: left;
+}
+
+.links ul {
+  font-size: 1.55rem;
+}
+
+.links ul li a {
+  color: #102a42;
+  text-decoration: none !important;
+}
+
+.links ul li a:hover {
+  color: #d11414 !important;
+}
+
+@media screen and (max-width: 800px) {
+  .links {
+    margin-left: 3rem;
+  }
+  .links h1 {
+    font-size: 2rem;
+  }
+  .links ul {
+    font-size: 1.25rem;
+  }
+}
+
+.grade {
+  text-align: center;
+}
+
+.rank-line {
+  border-top: 1px solid #d11414;
+  margin: 15px 60px;
+}
+
+.ranking {
+  -webkit-box-shadow: 3px 0px 2px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 0px 2px 0px rgba(0, 0, 0, 0.3);
+  width: 600px;
+}
+
+.ranking_2 {
+  -webkit-box-shadow: 3px 0px 2px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 0px 2px 0px rgba(0, 0, 0, 0.3);
+  width: 125px;
+}
+
+.book_title {
+  font-size: 1.05rem;
+}
+
+.weapon_title {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.writer {
+  color: #d11414;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1100px) {
+  .ranking {
+    width: 300px;
+  }
+  .ranking_2 {
+    width: 80px;
+  }
+}
+
+.form-box {
+  background: #f0ece3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form {
+  background: #fff;
+  margin: 12rem 0 7.5rem 0 !important;
+  padding: 2vw 4vh;
+  width: 75%;
+  max-width: 650px;
+  border-radius: 10px;
+}
+
+form .contact {
+  font-family: Ubuntu;
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #d11414;
+}
+
+.btn-danger {
+  background: #d11414;
+}
+
+.address_2 {
+  font-size: 1.5rem;
+  color: #d11414;
+}
+
+.address_2 p {
+  font-size: 1.25rem;
+  color: #000;
+  text-transform: none;
+}
+
+@media screen and (max-width: 800px) {
+  .contact {
+    font-size: 1.5rem;
+  }
+  .address_2 {
+    font-size: 1.25rem;
+  }
+  .address_2 p {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

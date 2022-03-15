@@ -1,0 +1,42 @@
+.grade {
+  text-align: center;
+}
+
+.rank-line {
+  border-top: 1px solid $clr-red-one;
+  margin: 15px 60px;
+}
+
+.ranking {
+  box-shadow: $box-shadow;
+  width: 600px;
+}
+
+.ranking_2 {
+  box-shadow: $box-shadow;
+  width: 125px;
+}
+
+.book_title {
+  font-size: 1.05rem;
+}
+
+.weapon_title {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.writer {
+  color: $clr-red-one;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1100px) {
+  .ranking {
+    width: 300px;
+  }
+  .ranking_2 {
+    width: 80px;
+  }
+}
